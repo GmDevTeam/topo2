@@ -33,7 +33,8 @@
 5.  **Важнейший шаг:** введите свои данные в системе Git. Это нужно, чтобы все ваши будущие коммиты были подписаны вашим именем.
     ```bash
     $ git config --global user.name "Ваше Имя"
-    $ git config --global user.email "ваша_почта@example.com"```
+    $ git config --global user.email "ваша_почта@example.com"
+	```
 
 ### **Этап 2: Управление проектом на вашем компьютере**
 
@@ -88,11 +89,13 @@ Git хранит всю историю ваших коммитов, и её мо
 *   **`git log`** — Показывает журнал коммитов.
     ```bash
 	$ git log
-	commit 6aded290101f5506565daff95763be76223ea12c (HEAD -> local, global)
-	Author: Ban049 <banyou049@gmail.com>
-	Date:   Mon Apr 13 20:09:24 2026 +1000
+	commit d7b9834462ae0b048eb209654597cc78485856ee
+	Merge: 2481516 3033a6d
+	Author: testik <you@example.com>
+	Date:   Wed Apr 15 08:36:24 2026 +1000
 
-		Коммит 1 (master) задние основы
+		Слил local в master
+
 
     ```
 *    **Полезный флаг:** `git log --oneline --graph` покажет историю в виде компактного и наглядного графа.
