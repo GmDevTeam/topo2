@@ -106,7 +106,7 @@ $ git commit --amend -m "Коммит 2 (master) написание  1 глав�
 ```bash
 $ git log
 commit 6aded290101f5506565daff95763be76223ea12c (HEAD -> local, global)
-Author: Ban049 <banyou049@gmail.com>
+Author: testik <testik@gmail.com>
 Date:   Mon Apr 13 20:09:24 2026 +1000
 
 	Коммит 1 (master) задние основы
